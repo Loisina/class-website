@@ -142,3 +142,21 @@ a:hover {
   font-size: 15px;
 }
 
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  gap: 0px;
+}
+
+.forms div{
+  background-color: rgb(255, 228, 196, 0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 400px;
+  gap: 50px;
+}
+
